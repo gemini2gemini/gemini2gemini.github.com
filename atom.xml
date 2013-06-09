@@ -4,7 +4,7 @@
   <title><![CDATA[Starry Coding]]></title>
   <link href="http://gemini2gemini.github.com/atom.xml" rel="self"/>
   <link href="http://gemini2gemini.github.com/"/>
-  <updated>2013-06-09T22:14:19+09:00</updated>
+  <updated>2013-06-09T22:18:21+09:00</updated>
   <id>http://gemini2gemini.github.com/</id>
   <author>
     <name><![CDATA[taisuke]]></name>
@@ -20,7 +20,7 @@
     <id>http://gemini2gemini.github.com/blog/2013/06/09/first-post</id>
     <content type="html"><![CDATA[<h3>github pagesでサイトを開設</h3>
 
-<p>WordPressが凄く便利だと思いながら、なんとなくデザインを起こすまでにいたらないため、
+<p>WordPressが凄く便利だと思いながら、なんとなくデザインを起こすまでにいたらないため、WordPressは一時的に横に置くことにした。<br/>
 rubyやrailsを学びつつあるので、そしてgithubの練習のためにも github pagesにサイトを開設してみた。<br/>
 学んだことを書いていくようにしたい。</p>
 ]]></content>
