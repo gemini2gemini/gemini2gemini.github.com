@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Starry Coding]]></title>
-  <link href="http://gemini2gemini.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: blog | Starry Coding]]></title>
+  <link href="http://gemini2gemini.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://gemini2gemini.github.com/"/>
   <updated>2013-06-09T22:05:20+09:00</updated>
   <id>http://gemini2gemini.github.com/</id>
