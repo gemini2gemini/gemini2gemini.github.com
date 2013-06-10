@@ -1,0 +1,13 @@
+---
+layout: post
+title: "study"
+date: 2013-06-10 12:54
+comments: true
+categories: blog
+---
+
+### 覚えていくこと
+
+これから半年間で、覚えていくこととして、ruby,rails,javascript,jQuery,backbone.js,underscore.jsがある。多いような・・・。  
+ruby,railsを仕事をしながら習得して、js系をプライベートで書いていくようにすればどうにかなるか。  
+蓄積がほとんどないので、蓄積を作っていくことに注力していきたい。
