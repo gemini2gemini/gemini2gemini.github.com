@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | Starry Coding]]></title>
+  <link href="http://gemini2gemini.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://gemini2gemini.github.com/"/>
+  <updated>2013-06-20T01:07:14+09:00</updated>
+  <id>http://gemini2gemini.github.com/</id>
+  <author>
+    <name><![CDATA[taisuke]]></name>
+    <email><![CDATA[taiyou.y3@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopressに、Google Anayticsを追加]]></title>
+    <link href="http://gemini2gemini.github.com/blog/2013/06/20/add-googleanaytics/"/>
+    <updated>2013-06-20T00:18:00+09:00</updated>
+    <id>http://gemini2gemini.github.com/blog/2013/06/20/add-googleanaytics</id>
+    <content type="html"><![CDATA[<h3>Octopressに、Google Analyticsを追加</h3>
+
+<p>Github pagesを使って、ブログを書いていくことにしたので、Octopressに、Google Analyticsを追加することにした。</p>
+
+<p>追加方法</p>
+
+<p>1:　Octopress内にある<code>_config.yml</code>の中にある Google Analyticsのトラッキングコードを記載する部分に、トラッキングコードを追加。</p>
+
+<p><div class="highlight"><pre><code class="ruby"><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+
+<span class="sr">&lt;h1&gt;Google Analytics&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+
+<span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="n">google_analytics_tracking_id</span><span class="p">:</span> <span class="no">UA</span><span class="o">-</span><span class="no">XXXXXXXX</span><span class="o">-</span><span class="n">X</span>
+</code></pre></div></p>
+
+<p>2:　通常通り、自動生成とデプロイを行う</p>
+
+<p><div class="highlight"><pre><code class="ruby"><span class="n">rake</span> <span class="n">gen_deploy</span>
+</code></pre></div></p>
+
+<p>3:　Githubにコミットしておく</p>
+
+<p><div class="highlight"><pre><code class="ruby"><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">source</span>
+</code></pre></div></p>
+]]></content>
+  </entry>
+  
+</feed>

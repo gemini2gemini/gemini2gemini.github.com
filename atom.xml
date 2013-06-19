@@ -4,7 +4,7 @@
   <title><![CDATA[Starry Coding]]></title>
   <link href="http://gemini2gemini.github.com/atom.xml" rel="self"/>
   <link href="http://gemini2gemini.github.com/"/>
-  <updated>2013-06-20T00:06:25+09:00</updated>
+  <updated>2013-06-20T01:07:14+09:00</updated>
   <id>http://gemini2gemini.github.com/</id>
   <author>
     <name><![CDATA[taisuke]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopressに、Google Anayticsを追加]]></title>
+    <link href="http://gemini2gemini.github.com/blog/2013/06/20/add-googleanaytics/"/>
+    <updated>2013-06-20T00:18:00+09:00</updated>
+    <id>http://gemini2gemini.github.com/blog/2013/06/20/add-googleanaytics</id>
+    <content type="html"><![CDATA[<h3>Octopressに、Google Analyticsを追加</h3>
+
+<p>Github pagesを使って、ブログを書いていくことにしたので、Octopressに、Google Analyticsを追加することにした。</p>
+
+<p>追加方法</p>
+
+<p>1:　Octopress内にある<code>_config.yml</code>の中にある Google Analyticsのトラッキングコードを記載する部分に、トラッキングコードを追加。</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="c1"># Google Analytics</span>
+<span class="n">google_analytics_tracking_id</span><span class="p">:</span> <span class="no">UA</span><span class="o">-</span><span class="no">XXXXXXXX</span><span class="o">-</span><span class="n">X</span>
+</code></pre></div>
+
+
+<p>2:　通常通り、自動生成とデプロイを行う</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="n">rake</span> <span class="n">gen_deploy</span>
+</code></pre></div>
+
+
+<p>3:　Githubにコミットしておく</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">source</span>
+</code></pre></div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[study]]></title>

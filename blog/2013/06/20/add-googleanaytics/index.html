@@ -5,11 +5,11 @@
 	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
 	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta charset="utf-8">
-	<title>Blog Archives  | Starry Coding</title>
+	<title>Octopressに、Google Anayticsを追加  | Starry Coding</title>
 
 <meta name="author" content="taisuke"> 
 
-<meta name="description" content=" 2013 Octopressに、Google Anayticsを追加 Jun 20 Google Analytics, Octopress study Jun 10 blog first-post Jun 9 blog "> <meta name="keywords" content="">
+<meta name="description" content="Octopressに、Google Analyticsを追加 Github pagesを使って、ブログを書いていくことにしたので、Octopressに、Google Analyticsを追加することにした。 追加方法 1:　Octopress内にある_config.ymlの中にある Google &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -94,64 +94,72 @@ $(document).ready(
 
 </header>
 
-	<div id="content" class="inner">
-	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Octopressに、Google Anayticsを追加</h2>
+	<div class="entry-content"><h3>Octopressに、Google Analyticsを追加</h3>
+
+<p>Github pagesを使って、ブログを書いていくことにしたので、Octopressに、Google Analyticsを追加することにした。</p>
+
+<p>追加方法</p>
+
+<p>1:　Octopress内にある<code>_config.yml</code>の中にある Google Analyticsのトラッキングコードを記載する部分に、トラッキングコードを追加。</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="c1"># Google Analytics</span>
+<span class="n">google_analytics_tracking_id</span><span class="p">:</span> <span class="no">UA</span><span class="o">-</span><span class="no">XXXXXXXX</span><span class="o">-</span><span class="n">X</span>
+</code></pre></div>
 
 
-	
-	
-	<section class="archives"><h1 class="year">2013</h1>
+<p>2:　通常通り、自動生成とデプロイを行う</p>
 
-<article>
-	<h2 class="title"><a href="/blog/2013/06/20/add-googleanaytics/">Octopressに、Google Anayticsを追加</a></h2>
-	<div class="meta">
-		<span class="date">Jun 20</span>
-		<span class="tags">
+<div class="highlight"><pre><code class="ruby"><span class="n">rake</span> <span class="n">gen_deploy</span>
+</code></pre></div>
+
+
+<p>3:　Githubにコミットしておく</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">source</span>
+</code></pre></div>
+
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-20T00:18:00+09:00" pubdate data-updated="true">2013-06-20</time></div>
+	<div class="tags">
 
 
 	<a class='category' href='/blog/categories/google-analytics/'>Google Analytics</a>, <a class='category' href='/blog/categories/octopress/'>Octopress</a>
 
 
-</span>
-	    
-	</div>
-</article>
-
+</div>
 	
+</div></article>
 
-
-<article>
-	<h2 class="title"><a href="/blog/2013/06/10/for-study/">study</a></h2>
-	<div class="meta">
-		<span class="date">Jun 10</span>
-		<span class="tags">
-
-
-	<a class='category' href='/blog/categories/blog/'>blog</a>
-
-
-</span>
-	    
-	</div>
-</article>
-
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
 	
-
-
-<article>
-	<h2 class="title"><a href="/blog/2013/06/09/first-post/">first-post</a></h2>
-	<div class="meta">
-		<span class="date">Jun  9</span>
-		<span class="tags">
-
-
-	<a class='category' href='/blog/categories/blog/'>blog</a>
-
-
-</span>
-	    
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> --->
 	</div>
-</article>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
 </div>
 	<footer id="footer" class="inner">Copyright &copy; 2013
 

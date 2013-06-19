@@ -9,8 +9,7 @@
 
 <meta name="author" content="taisuke"> 
 
-<meta name="description" content="覚えていくこと これから半年間で、覚えていくこととして、ruby,rails,javascript,jQuery,backbone.js,underscore.jsがある。多いような・・・。
-ruby,railsを仕事をしながら習得して、js系をプライベートで書いていくようにすればどうにかなるか &hellip;"> <meta name="keywords" content="">
+<meta name="description" content="Octopressに、Google Analyticsを追加 Github pagesを使って、ブログを書いていくことにしたので、Octopressに、Google Analyticsを追加することにした。 追加方法 1:　Octopress内にある_config.ymlの中にある Google &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -96,6 +95,69 @@ $(document).ready(
 </header>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/06/20/add-googleanaytics/">
+		
+			Octopressに、Google Anayticsを追加</a>
+	</h2>
+	<div class="entry-content">
+		<h3>Octopressに、Google Analyticsを追加</h3>
+
+<p>Github pagesを使って、ブログを書いていくことにしたので、Octopressに、Google Analyticsを追加することにした。</p>
+
+<p>追加方法</p>
+
+<p>1:　Octopress内にある<code>_config.yml</code>の中にある Google Analyticsのトラッキングコードを記載する部分に、トラッキングコードを追加。</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="c1"># Google Analytics</span>
+<span class="n">google_analytics_tracking_id</span><span class="p">:</span> <span class="no">UA</span><span class="o">-</span><span class="no">XXXXXXXX</span><span class="o">-</span><span class="n">X</span>
+</code></pre></div>
+
+
+<p>2:　通常通り、自動生成とデプロイを行う</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="n">rake</span> <span class="n">gen_deploy</span>
+</code></pre></div>
+
+
+<p>3:　Githubにコミットしておく</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">source</span>
+</code></pre></div>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-20T00:18:00+09:00" pubdate data-updated="true">2013-06-20</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/google-analytics/'>Google Analytics</a>, <a class='category' href='/blog/categories/octopress/'>Octopress</a>
+
+
+</div>
+	
+</div></article>
 
 
     <article class="post">
