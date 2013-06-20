@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Octopress | Starry Coding]]></title>
-  <link href="http://gemini2gemini.github.com/blog/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://gemini2gemini.github.com/"/>
-  <updated>2013-06-20T01:07:14+09:00</updated>
-  <id>http://gemini2gemini.github.com/</id>
+  <link href="http://gemini2gemini.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://gemini2gemini.github.io/"/>
+  <updated>2013-06-20T09:53:48+09:00</updated>
+  <id>http://gemini2gemini.github.io/</id>
   <author>
     <name><![CDATA[taisuke]]></name>
     <email><![CDATA[taiyou.y3@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopressに、Google Anayticsを追加]]></title>
-    <link href="http://gemini2gemini.github.com/blog/2013/06/20/add-googleanaytics/"/>
+    <link href="http://gemini2gemini.github.io/blog/2013/06/20/add-googleanaytics/"/>
     <updated>2013-06-20T00:18:00+09:00</updated>
-    <id>http://gemini2gemini.github.com/blog/2013/06/20/add-googleanaytics</id>
+    <id>http://gemini2gemini.github.io/blog/2013/06/20/add-googleanaytics</id>
     <content type="html"><![CDATA[<h3>Octopressに、Google Analyticsを追加</h3>
 
 <p>Github pagesを使って、ブログを書いていくことにしたので、Octopressに、Google Analyticsを追加することにした。</p>
