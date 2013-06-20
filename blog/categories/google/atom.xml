@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Google | Starry Coding]]></title>
+  <link href="http://gemini2gemini.github.io/blog/categories/google/atom.xml" rel="self"/>
+  <link href="http://gemini2gemini.github.io/"/>
+  <updated>2013-06-20T20:38:13+09:00</updated>
+  <id>http://gemini2gemini.github.io/</id>
+  <author>
+    <name><![CDATA[taisuke]]></name>
+    <email><![CDATA[taiyou.y3@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Google-OpenID]]></title>
+    <link href="http://gemini2gemini.github.io/blog/2013/06/20/google-openid/"/>
+    <updated>2013-06-20T20:19:00+09:00</updated>
+    <id>http://gemini2gemini.github.io/blog/2013/06/20/google-openid</id>
+    <content type="html"><![CDATA[<h3>GoogleのOpenIDについて</h3>
+
+<p>某サイトで、OpenIDでログインというのがあり、GoogleアカウントでもOpenID使えるよ、ということが載っていたので、自分のOpenIDを調べる方法を探したけど、それらしき記事がすぐに見つからなかったのでメモ。</p>
+
+<p>OpenIDというと、それぞれ違うIDがあり、Googleのアカウント情報の中にあると思っていたのですが、全然違いました。知らないことが多いが、本当に知らないと辛い・・・</p>
+
+<p>ということで、以下が GoogleのOpenID。これで、Googleアカウントにログインしていれば、紐づけてもらえます。</p>
+
+<p><div class="highlight"><pre><code class="ruby"><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+
+<span class="sr">&lt;h1&gt;Google OpenID&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+
+<span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="n">google</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">accounts</span><span class="o">/</span><span class="n">o8</span><span class="o">/</span><span class="nb">id</span>
+</code></pre></div></p>
+]]></content>
+  </entry>
+  
+</feed>
